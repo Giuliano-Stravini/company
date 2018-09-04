@@ -5,7 +5,7 @@ export default class AdminPortifolio extends Component {
   constructor(props) {
     super(props)
 
-    this.gravarPortifolio - this.gravarPortifolio.bind(this)
+    this.gravarPortifolio = this.gravarPortifolio.bind(this)
   }
 
   gravarPortifolio(e){
@@ -26,18 +26,18 @@ export default class AdminPortifolio extends Component {
         <h2>Portifólio Administrativo</h2>
 
         <form onSubmit={this.gravarPortifolio}>
-          <div classname="form-group">
-            <label htmlfor="titulo">Titulo</label>
-            <input type="text" classname="form-control" id="titulo" placeholder="titulo" ref={(ref) => this.titulo = ref}/>
+          <div className="form-group">
+            <label htmlFor="titulo">Titulo</label>
+            <input type="text" className="form-control" id="titulo" placeholder="titulo" ref={(ref) => this.titulo = ref}/>
           </div>
-          <div classname="form-group">
+          <div className="form-group">
             <label htmlFor="desc">Descrição</label>
-            <textarea classname="form-control" id="desc" rows="3" ref={(ref) => this.desc = ref}></textarea>
+            <textarea className="form-control" id="desc" rows="3" ref={(ref) => this.desc = ref}></textarea>
           </div>
           <label htmlFor="arqimg">input Imagem</label>
-          <input type="file" classname="form-control-file" id="arqimg" ref={(ref) => this.img = ref}/>
+          <input type="file" className="form-control-file" id="arqimg" ref={(ref) => this.img = ref}/>
 
-          <button type="submit" classname="btn btn-primary">Submit</button>
+          <button type="submit" className="btn btn-primary">Submit</button>
         </form>
       </div>
     )
