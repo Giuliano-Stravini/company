@@ -7,11 +7,11 @@ const AdminMenu = props => {
             <h1>Menu ADM</h1>
 
             <div className="list-group">
-                <Link to="/Admin" className="list-group-item active">Cras justo odio</Link>
-                <Link to="/Admin" className="list-group-item">Dapibus ac facilisis in</Link>
-                <Link to="/Admin" className="list-group-item">Morbi leo risus</Link>
-                <Link to="/Admin" className="list-group-item">Porta ac consectetur ac</Link>
-                <Link to="/Admin" className="list-group-item">Vestibulum at eros</Link>
+                <Link to="/Admin/adminportifolio" className="list-group-item">Portifólio</Link>
+                <Link to="/Admin" className="list-group-item">Opc 1</Link>
+                <Link to="/Admin" className="list-group-item">Opc 2</Link>
+                <Link to="/Admin" className="list-group-item">Opc 3</Link>
+                <Link to="/Admin" className="list-group-item">Opc 4</Link>
             </div>
 
         </div>
